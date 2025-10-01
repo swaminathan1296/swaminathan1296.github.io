@@ -1,5 +1,7 @@
-/* Import Cayman defaults */
-@import "cayman";
+---
+---
+
+@import "{{ site.theme }}"; /* import Cayman theme first */
 
 /* Headshot styling */
 .headshot {
@@ -12,21 +14,11 @@
   box-shadow: 0 0 0 3px rgba(255,255,255,0.2);
 }
 
-/* Optional: slightly higher contrast for links on dark */
-a {
-  text-decoration: none;
-  border-bottom: 1px dotted currentColor;
-}
-a:hover {
-  border-bottom-style: solid;
-}
+/* Optional: link styling for dark background */
+a { text-decoration: none; border-bottom: 1px dotted currentColor; }
+a:hover { border-bottom-style: solid; }
 
-/* Optional: tighten page content for readability */
-.main-content {
-  max-width: 860px;
-}
+/* Optional: slightly tighter header + narrower content width */
+.page-header { padding: 2.5rem 2rem; }
+.main-content { max-width: 860px; }
 
-/* Optional: center top-of-page title block slightly tighter */
-.page-header {
-  padding: 2.5rem 2rem;
-}
