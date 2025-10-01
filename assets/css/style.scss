@@ -1,0 +1,32 @@
+/* Import Cayman defaults */
+@import "cayman";
+
+/* Headshot styling */
+.headshot {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 14px auto;
+  object-fit: cover;
+  box-shadow: 0 0 0 3px rgba(255,255,255,0.2);
+}
+
+/* Optional: slightly higher contrast for links on dark */
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+}
+a:hover {
+  border-bottom-style: solid;
+}
+
+/* Optional: tighten page content for readability */
+.main-content {
+  max-width: 860px;
+}
+
+/* Optional: center top-of-page title block slightly tighter */
+.page-header {
+  padding: 2.5rem 2rem;
+}

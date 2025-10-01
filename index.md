@@ -1,3 +1,10 @@
+<div align="center">
+
+# Swaminathan Sundar  
+
+</div>
+
+---
 
 ## 📌 About Me
 I am a Ph.D. candidate at Texas A&M University specializing in **optimization, machine learning, and algorithmic modeling**.  
@@ -35,7 +42,7 @@ I also have strong experience in **Pyomo, Gurobi, and Python-based frameworks** 
 ## 📚 Publications
 - Kakodkar, Rahul, **Swaminathan Sundar**, and Efstratios Pistikopoulos.  
   *Hydrogen-Based Dense Energy Carriers in Energy Transition Solutions.*  
-  In Handbook of Smart Energy Systems. Springer, 2022.  
+  In *Handbook of Smart Energy Systems*. Springer, 2022.  
 
 - **Swaminathan Sundar**, Rahul Kakodkar, and Efstratios Pistikopoulos.  
   *Techno-Economic Analysis and Life Cycle Assessment of a Novel Algae-based CCUS Technology.*  
@@ -43,8 +50,6 @@ I also have strong experience in **Pyomo, Gurobi, and Python-based frameworks** 
 
 ---
 
----
-
 <p align="center">
-© 2025 Swaminathan Sundar | <a href="mailto:swaminathan.sundar@tamu.edu">Contact Me</a>
+© 2025 Swaminathan Sundar · <a href="mailto:swaminathan.sundar@tamu.edu">Contact</a>
 </p>
