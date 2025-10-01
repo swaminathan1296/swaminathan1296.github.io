@@ -1,13 +1,3 @@
-<div align="center">
-
-# Swaminathan Sundar  
-Ph.D. Candidate in Chemical Engineering | Optimization | Machine Learning  
-
-<img src="https://github.com/swaminathan1296.png" width="160" style="border-radius:50%">
-
-</div>
-
----
 
 ## 📌 About Me
 I am a Ph.D. candidate at Texas A&M University specializing in **optimization, machine learning, and algorithmic modeling**.  
