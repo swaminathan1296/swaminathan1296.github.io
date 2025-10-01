@@ -1,5 +1,6 @@
 # Swaminathan Sundar
 Ph.D. Candidate in Chemical Engineering | Optimization | Machine Learning  
+<img src="https://github.com/swaminathan1296.png" width="150" style="border-radius:50%">
 
 Welcome to my portfolio!  
 
