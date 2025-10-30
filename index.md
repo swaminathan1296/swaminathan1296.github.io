@@ -3,44 +3,50 @@ layout: default
 title: "Swaminathan Sundar"
 ---
 
-<div align="center">
-
-# Swaminathan Sundar
-
+<div style="display: flex; align-items: center;">
+  <img src="/assets/images/profile.jpg" alt="Swaminathan Sundar" width="150" style="margin-right: 20px; border-radius: 8px;" />
+  <div>
+    <h1>Swaminathan Sundar</h1>
+    <p>
+      📍 College Station, TX <br>
+      📧 <a href="mailto:swaminathan.sundar@tamu.edu">swaminathan.sundar@tamu.edu</a>
+    </p>
+  </div>
 </div>
 
 ---
 
-## 📌 About Me
-I am a Ph.D. candidate at Texas A&M University specializing in **optimization, machine learning, and algorithmic modeling**.  
-My work focuses on **large-scale mathematical programming, nonlinear optimization, and deep learning**, applied to complex systems design and decision-making.  
-I also have strong experience in **Pyomo, Gurobi, and Python-based frameworks** for solving real-world optimization and ML problems.  
+## 👋 About Me
+Hi! I’m Swaminathan, a Ph.D. candidate at Texas A&M University who loves solving tough problems at the intersection of **optimization, machine learning, and systems engineering**.  
+My research and projects are all about making complex systems smarter—whether it’s scaling up algae-based carbon capture, building predictive models, or designing clever algorithms to squeeze out better solutions.  
+I enjoy blending rigorous math with real-world impact, and I like to keep things fun: if there’s a challenge that mixes modeling, coding, and creativity, I’m in.  
 
 ---
 
-## 🔗 Quick Links
-- 📄 [CV (PDF)](cv.pdf)
-- 💻 [GitHub Projects](https://github.com/swaminathan1296)
-- 📚 [Publications](#publications)
+## 🛠 Skills
+- **Optimization & Modeling:** Pyomo, Gurobi, Nonlinear & Mixed-Integer Programming, Metaheuristics  
+- **Programming & Data Science:** Python, PyTorch, TensorFlow, Pandas, Scikit-learn  
+- **Simulation & Analysis:** Process modeling, Techno-Economic Analysis (TEA), Life Cycle Assessment (LCA)  
+- **Other Tools:** MATLAB, Aspen Plus, GAMS, Git  
 
 ---
 
 ## 🚀 Projects
 
-- **[Optimization Framework in Pyomo](https://github.com/swaminathan1296/your-repo)**  
-  Large-scale nonlinear programming for dynamic systems.  
+- **Optimization Framework in Pyomo**  
+  Developed large-scale nonlinear programming models for dynamic systems, enabling better design and decision-making under uncertainty.  
 
-- **[Vision Transformer (CIFAR-10)](https://github.com/swaminathan1296/your-repo)**  
-  Deep learning model implemented in PyTorch.  
+- **Vision Transformer (CIFAR-10)**  
+  Built a deep learning model in PyTorch with advanced hyperparameter tuning and data augmentation, demonstrating the power of transformer architectures on image data.  
 
-- **[Yelp Review Classification](https://github.com/swaminathan1296/your-repo)**  
-  NLP-based sentiment classification using Transformer architectures.  
+- **Yelp Review Classification**  
+  Used Transformer-based NLP methods to classify thousands of reviews, achieving strong accuracy while exploring interpretability of embeddings.  
 
-- **[Vehicle Routing Metaheuristics](https://github.com/swaminathan1296/your-repo)**  
-  Implemented 2-opt, λ-interchange, and Iterated Local Search to solve CVRP.  
+- **Vehicle Routing Metaheuristics**  
+  Designed and implemented 2-opt, λ-interchange, and Iterated Local Search algorithms to solve capacitated vehicle routing problems (CVRP).  
 
-- **[Particle Track Reconstruction](https://github.com/swaminathan1296/your-repo)**  
-  Formulated as QUBO optimization, solved via simulated and quantum annealing.  
+- **Particle Track Reconstruction**  
+  Tackled a particle physics challenge by formulating track reconstruction as a QUBO optimization problem, experimenting with both simulated and quantum annealing approaches.  
 
 ---
 
@@ -49,9 +55,14 @@ I also have strong experience in **Pyomo, Gurobi, and Python-based frameworks** 
   *Hydrogen-Based Dense Energy Carriers in Energy Transition Solutions.*  
   In *Handbook of Smart Energy Systems*. Springer, 2022.  
 
-- **Swaminathan Sundar**, Rahul Kakodkar, and Efstratios Pistikopoulos.  
-  *Techno-Economic Analysis and Life Cycle Assessment of a Novel Algae-based CCUS Technology.*  
-  *Submitted, Computers \& Chemical Engineering.*  
+- **Sundar, Swaminathan**, Rahul Kakodkar, and Efstratios N. Pistikopoulos. ”Techno-economic analysis and life
+cycle assessment of a novel algae-based CCUS technology.” Computers & Chemical Engineering (2025): 109409.
+
+- **Sundar, Swaminathan**, Vincent Xu, Dustin Kenefake, Yinjie Tang and Efstratios Pistikopouslos. ”Model-
+Based Experimental Design and Parameter Estimation in Algae-Based CCUS Scale-Up” In preparation.
+
+- **Sundar, Swaminathan**, Vincent Xu, Dustin Kenefake, Yinjie Tang and Efstratios Pistikopouslos. ”Dynamic
+Modeling and Control of a Photobioreactor for the Cultivation of Algae.” In preparation
 
 ---
 
