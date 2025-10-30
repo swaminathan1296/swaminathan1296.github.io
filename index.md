@@ -3,9 +3,9 @@ layout: default
 title: "Swaminathan Sundar"
 ---
 
-<div style="display: flex; align-items: center;">
-  <img src="/assets/images/profile.jpeg" alt="Swaminathan Sundar" width="150" style="margin-right: 20px; border-radius: 8px;" />
-  <div>
+<div style="text-align: center; margin-bottom: 20px;">
+  <img src="/assets/images/profile.jpeg" alt="Swaminathan Sundar" width="250" style="border-radius: 12px;" />
+</div>
     <h1>Swaminathan Sundar</h1>
     <p>
       📍 College Station, TX <br>
