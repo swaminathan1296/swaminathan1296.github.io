@@ -10,6 +10,7 @@ title: "Swaminathan Sundar"
     <p>
       📍 College Station, TX <br>
       📧 <a href="mailto:swaminathan.sundar@tamu.edu">swaminathan.sundar@tamu.edu</a>
+      📄 <a href="cv.pdf" target="_blank"><b>Download CV</b></a>
     </p>
   </div>
 </div>
