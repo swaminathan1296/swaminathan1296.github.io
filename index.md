@@ -4,7 +4,7 @@ title: "Swaminathan Sundar"
 ---
 
 <div style="display: flex; align-items: center;">
-  <img src="/assets/images/profile.jpg" alt="Swaminathan Sundar" width="150" style="margin-right: 20px; border-radius: 8px;" />
+  <img src="/assets/images/profile.jpeg" alt="Swaminathan Sundar" width="150" style="margin-right: 20px; border-radius: 8px;" />
   <div>
     <h1>Swaminathan Sundar</h1>
     <p>
