@@ -4,16 +4,14 @@ title: "Swaminathan Sundar"
 ---
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="/assets/images/profile.jpeg" alt="Swaminathan Sundar" width="250" style="border-radius: 12px;" />
+  <img src="/assets/images/profile.jpeg" alt="Swaminathan Sundar" width="500" style="border-radius: 12px;" />
 </div>
-    <h1>Swaminathan Sundar</h1>
-    <p>
-      📍 College Station, TX <br>
-      📧 <a href="mailto:swaminathan.sundar@tamu.edu">swaminathan.sundar@tamu.edu</a>
-      📄 <a href="cv.pdf" target="_blank"><b>Download CV</b></a>
-    </p>
-  </div>
-</div>
+<p style="text-align: center;">
+  📍 College Station, TX <br>
+  📧 <a href="mailto:swaminathan.sundar@tamu.edu">swaminathan.sundar@tamu.edu</a> <br>
+  📄 <a href="cv.pdf" target="_blank"><b>Download CV</b></a>
+</p>
+
 
 ---
 
