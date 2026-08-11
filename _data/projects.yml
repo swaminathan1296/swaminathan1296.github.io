@@ -14,6 +14,6 @@
   description: "2-opt and λ-interchange under Iterated Local Search, benchmarked across problem sizes to characterize scalability and runtime behaviour."
 
 - name: "Vision Transformer on CIFAR-10"
-  tag: "[XX.X% test acc]"
+  tag: "[56.65% test acc]"
   url: ""
   description: "Compact ViT written from scratch in PyTorch, with augmentation and a tuned hyperparameter sweep. A study of where attention earns its keep on small image data."
