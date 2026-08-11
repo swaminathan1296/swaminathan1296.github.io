@@ -5,82 +5,123 @@ description: "Ph.D. candidate at Texas A&M building optimization, ML, and system
 permalink: /
 ---
 
-<!-- HERO -->
-<div style="text-align:center; margin: 1.25rem 0 0.5rem;">
+<!-- The Cayman header above already prints your name + tagline.
+     This block picks up from there: photo, contact, CV. -->
+
+<div class="hero">
   <img
-    src="/assets/images/profile.jpeg"
+    class="hero-photo"
+    src="{{ '/assets/images/profile.jpeg' | relative_url }}"
     alt="Portrait of Swaminathan Sundar"
-    width="520"
-    style="max-width: 92vw; height: auto; border-radius: 14px;"
+    width="320" height="320"
     loading="eager"
     decoding="async"
   />
-</div>
 
-<div style="text-align:center; margin: 0.5rem 0 1.25rem;">
-  <h1 style="margin: 0.25rem 0 0.75rem; font-size: clamp(1.8rem, 3.5vw, 2.4rem);">Swaminathan Sundar</h1>
-  <p style="margin:0.25rem 0 0.75rem;">
-    📍 College Station, TX
+  <p class="hero-meta">
+    Ph.D. Candidate, Chemical Engineering · Texas A&amp;M University<br />
+    College Station, TX ·
+    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
   </p>
-  <p style="margin:0.25rem 0;">
-    📧 <a href="mailto:swaminathan.sundar@tamu.edu">swaminathan.sundar@tamu.edu</a>
-  </p>
-  <p style="margin:0.25rem 0 0.5rem;">
-    <a href="/cv.pdf" target="_blank" rel="noopener" style="display:inline-block; padding: 8px 14px; border-radius: 8px; border: 1px solid #ddd; text-decoration:none;">
-      📄 <strong>Download CV</strong>
-    </a>
+
+  <p class="hero-links">
+    <a class="btn btn-primary" href="{{ '/cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV</a>
+    <a class="btn" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="{{ site.scholar_url }}" target="_blank" rel="noopener">Google Scholar</a>
   </p>
 </div>
 
 ---
 
-## 👋 About Me
-Howdy! I’m a Ph.D. candidate at Texas A&M who enjoys turning messy, high-dimensional problems into clean, actionable decisions with **optimization, machine learning, and systems engineering**.  
-I’ve built **dynamic models**, **predictive pipelines**, and **optimization algorithms** for everything from algae-based carbon capture scale-up to computer vision and NLP. I like work that mixes math, modeling, and making—then shipping solutions that actually get used.
+## About
+
+Howdy! I'm a Ph.D. candidate at Texas A&M who turns messy, high-dimensional problems into clean, actionable decisions using **optimization, machine learning, and systems engineering**.
+
+My research builds dynamic models, predictive pipelines, and optimization algorithms — from algae-based carbon capture scale-up to computer vision and NLP. I like work that mixes math, modeling, and making, then ships something people actually use.
+
+**Currently seeking** quantitative research, optimization, and applied ML roles. <!-- TODO: add expected defense date, e.g. "Available from May 2027." Hiring managers screen on this. -->
 
 ---
 
-## 🛠 Skills
-- **Optimization & Modeling:** Pyomo, Gurobi; nonlinear & mixed-integer programming; multi-objective optimization; metaheuristics  
-- **ML / Data:** Python, PyTorch, TensorFlow, Pandas, scikit-learn; experiment tracking; reproducible workflows  
-- **Simulation & Analysis:** Dynamic modeling & control (MPC), supply-chain design & scheduling, TEA, LCA  
-- **Other Tools:** MATLAB, Aspen Plus, GAMS, Git
+## Education
+
+**Ph.D., Chemical Engineering** — Texas A&M University, expected <!-- TODO: month/year -->
+Advisor: Efstratios N. Pistikopoulos · Texas A&M Energy Institute
+Dissertation: <!-- TODO: one line on the topic -->
+
+**B.Tech, <!-- TODO: field -->** — <!-- TODO: institution, year -->
 
 ---
 
-## 🚀 Projects
-- **Optimization Framework in Pyomo**  
-  Built large-scale nonlinear programs for dynamic systems with uncertainty, enabling design trade-offs, sensitivity analysis, and controllability checks.
+## Experience
 
-- **Vision Transformer (CIFAR-10)**  
-  Implemented a compact ViT in PyTorch with augmentation + tuned hyperparameters; demonstrated transformer strengths on small image datasets.
+<!-- TODO: internships, RA/TA appointments, consulting. If you have industry
+     experience, it belongs here, above Projects. Delete this section if empty. -->
 
-- **Yelp Review Classification (Transformer NLP)**  
-  End-to-end pipeline—preprocessing, tokenization, positional encoding, and transformer training—achieving strong validation accuracy on 100k+ reviews.
-
-- **Vehicle Routing Metaheuristics (CVRP)**  
-  Implemented **2-opt**, **λ-interchange**, and **Iterated Local Search** to escape local minima; produced near-optimal routes on small/medium instances.
-
-- **Particle Track Reconstruction (QUBO)**  
-  Framed multi-track reconstruction as a QUBO; explored simulated vs. quantum annealing to study solution quality vs. runtime trade-offs.
+**Graduate Research Assistant** — Texas A&M Energy Institute, <!-- TODO: dates -->
+<!-- TODO: 2–3 bullets, each with a number in it. -->
 
 ---
 
-## 📚 Publications
-- Kakodkar, Rahul, **Swaminathan Sundar**, Efstratios N. Pistikopoulos.  
-  *Hydrogen-Based Dense Energy Carriers in Energy Transition Solutions.* In **Handbook of Smart Energy Systems**. Springer, 2022.
+## Skills
 
-- **Sundar, Swaminathan**, Rahul Kakodkar, Efstratios N. Pistikopoulos.  
-  *Techno-economic analysis and life-cycle assessment of a novel algae-based CCUS technology.* **Computers & Chemical Engineering** (2025): 109409.
+**Optimization & Modeling** — Pyomo, Gurobi, GAMS; nonlinear and mixed-integer programming; multi-objective optimization; metaheuristics
 
-- **Sundar, Swaminathan**, Vincent Xu, Dustin Kenefake, Yinjie Tang, Efstratios N. Pistikopoulos.  
-  *Model-Based Experimental Design and Parameter Estimation in Algae-Based CCUS Scale-Up.* (In preparation)
+**ML & Data** — Python, PyTorch, TensorFlow, scikit-learn, pandas; experiment tracking; reproducible workflows
 
-- **Sundar, Swaminathan**, Vincent Xu, Dustin Kenefake, Yinjie Tang, Efstratios N. Pistikopoulos.  
-  *Dynamic Modeling and Control of a Photobioreactor for the Cultivation of Algae.* (In preparation)
+**Simulation & Analysis** — dynamic modeling and control (MPC), supply-chain design and scheduling, techno-economic analysis, life-cycle assessment
+
+**Tools** — MATLAB, Aspen Plus, Git, Linux
 
 ---
 
-<p align="center" style="margin-top: 1.5rem;">
-© 2025 Swaminathan Sundar · <a href="mailto:swaminathan.sundar@tamu.edu">Contact</a>
+## Projects
+
+<!-- TODO: every one of these needs a repo link. In quant/OR/ML hiring the code
+     IS the portfolio — an unlinked project is an unverifiable claim. Replace the
+     placeholder hrefs, and swap vague results for numbers wherever you have them. -->
+
+**Large-Scale Optimization Framework in Pyomo** · [code](#)
+Nonlinear programs for dynamic systems under uncertainty, supporting design trade-off studies, sensitivity analysis, and controllability checks.
+
+**Vision Transformer on CIFAR-10** · [code](#)
+Compact ViT implemented from scratch in PyTorch with augmentation and tuned hyperparameters. <!-- TODO: "Reached XX.X% test accuracy vs. YY% ResNet-18 baseline." -->
+
+**Transformer-Based Review Classification** · [code](#)
+End-to-end NLP pipeline — preprocessing, tokenization, positional encoding, training — over 100k+ Yelp reviews. <!-- TODO: report the accuracy number. -->
+
+**Vehicle Routing Metaheuristics (CVRP)** · [code](#)
+2-opt, λ-interchange, and Iterated Local Search for escaping local minima. <!-- TODO: "Within X% of best-known solutions on Christofides instances." -->
+
+**Particle Track Reconstruction as a QUBO** · [code](#)
+Formulated multi-track reconstruction as a QUBO and compared simulated against quantum annealing on solution quality versus runtime.
+
+---
+
+## Publications
+
+Sundar, S., Xu, V., Kenefake, D., Tang, Y., Pistikopoulos, E. N.
+**Techno-economic analysis and life-cycle assessment of a novel algae-based CCUS technology.**
+*Computers & Chemical Engineering*, 2025, 109409.
+[DOI](#) <!-- TODO: real DOI link -->
+
+Kakodkar, R., Sundar, S., Pistikopoulos, E. N.
+**Hydrogen-based dense energy carriers in energy transition solutions.**
+In *Handbook of Smart Energy Systems*, Springer, 2022.
+[DOI](#) <!-- TODO: real DOI link -->
+
+Sundar, S., Xu, V., Kenefake, D., Tang, Y., Pistikopoulos, E. N.
+**Model-based experimental design and parameter estimation in algae-based CCUS scale-up.**
+*In preparation.*
+
+Sundar, S., Xu, V., Kenefake, D., Tang, Y., Pistikopoulos, E. N.
+**Dynamic modeling and control of a photobioreactor for the cultivation of algae.**
+*In preparation.*
+
+---
+
+<p class="site-credit">
+  © {{ 'now' | date: "%Y" }} Swaminathan Sundar ·
+  <a href="mailto:{{ site.email }}">Get in touch</a>
 </p>

@@ -1,24 +1,129 @@
 ---
+# Save this file as: assets/css/style.scss
+# The two lines of empty front matter above are REQUIRED — they tell Jekyll to
+# process this file through Sass. Without them nothing here takes effect.
 ---
 
-@import "{{ site.theme }}"; /* import Cayman theme first */
+// ---------------------------------------------------------------
+// Cayman variable overrides. These MUST come before the @import,
+// because Cayman declares them with !default.
+// ---------------------------------------------------------------
 
-/* Headshot styling */
-.headshot {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 14px auto;
-  object-fit: cover;
-  box-shadow: 0 0 0 3px rgba(255,255,255,0.2);
+// Restrained slate/indigo — reads well for quant and research roles.
+$header-bg-color:           #1f3a5f;
+$header-bg-color-secondary: #2d5f8a;
+$header-heading-color:      #ffffff;
+$section-headings-color:    #1f3a5f;
+$body-link-color:           #1f6feb;
+$body-text-color:           #3c4450;
+$border-color:              #dfe3e8;
+$hr-border-color:           #eceef1;
+
+// Aggie alternative — swap the two header colours for maroon if you prefer:
+//   $header-bg-color: #500000;  $header-bg-color-secondary: #7a1f1f;
+
+@import "jekyll-theme-cayman";
+
+// ---------------------------------------------------------------
+// Hero
+// ---------------------------------------------------------------
+.hero {
+  text-align: center;
+  margin: 0 0 2rem;
 }
 
-/* Optional: link styling for dark background */
-a { text-decoration: none; border-bottom: 1px dotted currentColor; }
-a:hover { border-bottom-style: solid; }
+.hero-photo {
+  width: 200px;
+  height: 200px;
+  max-width: 60vw;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
 
-/* Optional: slightly tighter header + narrower content width */
-.page-header { padding: 2.5rem 2rem; }
-.main-content { max-width: 860px; }
+.hero-meta {
+  margin: 1rem auto 1.25rem;
+  max-width: 34rem;
+  line-height: 1.6;
+  color: $body-text-color;
+}
 
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin: 0;
+}
+
+// ---------------------------------------------------------------
+// Buttons — Cayman ships .btn for its header; restyle for body use
+// ---------------------------------------------------------------
+.main-content .btn {
+  display: inline-block;
+  padding: 0.5rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: $header-bg-color;
+  background: transparent;
+  border: 1px solid rgba(31, 58, 95, 0.35);
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+
+  &:hover {
+    background-color: rgba(31, 58, 95, 0.07);
+    border-color: $header-bg-color;
+    text-decoration: none;
+  }
+
+  &.btn-primary {
+    color: #fff;
+    background-color: $header-bg-color;
+    border-color: $header-bg-color;
+
+    &:hover { background-color: $header-bg-color-secondary; }
+  }
+}
+
+// ---------------------------------------------------------------
+// Content rhythm
+// ---------------------------------------------------------------
+.main-content {
+  h2 {
+    margin-top: 2.5rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid $border-color;
+    letter-spacing: -0.01em;
+  }
+
+  // Project and publication entries: tighten the gap between the
+  // bolded title line and the description beneath it.
+  p strong:first-child { color: #1a1d21; }
+}
+
+.site-credit {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #7a828c;
+}
+
+// ---------------------------------------------------------------
+// Quality floor
+// ---------------------------------------------------------------
+a:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid $body-link-color;
+  outline-offset: 2px;
+}
+
+@media print {
+  .page-header { background: none; color: #000; }
+  .hero-links, .site-credit { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

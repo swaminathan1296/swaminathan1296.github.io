@@ -1,11 +1,51 @@
-# Use the dark Cayman theme
+# ---------------------------------------------------------------
+# Site identity
+# Cayman renders `title` as the big <h1> in the header banner and
+# `description` as the tagline beneath it. Do NOT repeat them in index.md.
+# ---------------------------------------------------------------
+title: "Swaminathan Sundar"
+description: "Operations Research · Machine Learning · Quantitative Research"
+
+# TODO: replace with your actual user-site URL
+url: "https://swaminathansundar.github.io"
+baseurl: ""
+
+author: "Swaminathan Sundar"
+email: "swaminathan.sundar@tamu.edu"
+lang: "en_US"
+
+# ---------------------------------------------------------------
+# Theme
+# Cayman is a LIGHT theme (orange -> purple gradient header).
+# Colour overrides live in assets/css/style.scss.
+# ---------------------------------------------------------------
 remote_theme: pages-themes/cayman@v0.2.0
+show_downloads: false
+
 plugins:
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-title: "Swaminathan Sundar"
-description: "Operations Research, Machine Learning, Quantitative Research"
+# ---------------------------------------------------------------
+# Profile links — referenced from index.md so you edit them once.
+# TODO: fill these in.
+# ---------------------------------------------------------------
+github_username: "swaminathan1296"
+linkedin_url: "https://www.linkedin.com/in/swaminathan-sundar/"
+scholar_url: "https://scholar.google.com/citations?user=zWWbyAYAAAAJ&hl=en"
+orcid_url: "https://orcid.org/0000-0002-1280-0449"
 
-# Enable custom CSS
-sass:
-  sass_dir: assets/css
+# Used by jekyll-seo-tag for structured data
+social:
+  name: "Swaminathan Sundar"
+  links:
+    - "https://www.linkedin.com/in/swaminathan-sundar/"
+    - "https://github.com/swaminathan1296"
+    - "https://scholar.google.com/citations?user=zWWbyAYAAAAJ&hl=en"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
