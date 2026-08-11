@@ -1,0 +1,13 @@
+{%- if site.data.education and site.data.education.size > 0 -%}
+<section id="education">
+  <h2>Education</h2>
+  {%- for e in site.data.education %}
+  <div class="entry">
+    <h3>{% include tbd.html text=e.degree %}</h3>
+    {%- if e.where %}<p class="where">{% include tbd.html text=e.where %}</p>{% endif %}
+    {%- if e.when %}<p class="when">{% include tbd.html text=e.when %}</p>{% endif %}
+    {%- if e.note %}<p>{% include tbd.html text=e.note %}</p>{% endif %}
+  </div>
+  {%- endfor %}
+</section>
+{%- endif -%}

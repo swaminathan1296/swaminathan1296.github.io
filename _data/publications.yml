@@ -1,0 +1,25 @@
+# Published work: give `venue` and `year`.
+# Unpublished work: give `status` instead (e.g. "In prep", "Under review").
+# Your own name is bolded automatically — see `name_in_publications` in _config.yml.
+
+- title: "Techno-economic analysis and life-cycle assessment of a novel algae-based CCUS technology"
+  authors: "S. Sundar, R. Kakodkar, E. N. Pistikopoulos"
+  venue: "Comput. Chem. Eng."
+  year: 2025
+  detail: ""
+  doi: ""
+
+- title: "Hydrogen-based dense energy carriers in energy transition solutions"
+  authors: "R. Kakodkar, S. Sundar, E. N. Pistikopoulos"
+  venue: "Springer Handbook"
+  year: 2022
+  detail: "Handbook of Smart Energy Systems"
+  doi: ""
+
+- title: "Model-based experimental design and parameter estimation in algae-based CCUS scale-up"
+  authors: "S. Sundar, V. Xu, D. Kenefake, Y. Tang, E. N. Pistikopoulos"
+  status: "In prep"
+
+- title: "Dynamic modeling and control of a photobioreactor for the cultivation of algae"
+  authors: "S. Sundar, V. Xu, D. Kenefake, Y. Tang, E. N. Pistikopoulos"
+  status: "In prep"

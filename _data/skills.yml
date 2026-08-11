@@ -1,0 +1,11 @@
+- label: "Optimization"
+  items: "Pyomo, Gurobi, GAMS · nonlinear and mixed-integer programming · multi-objective optimization · metaheuristics"
+
+- label: "ML & Data"
+  items: "Python, PyTorch, TensorFlow, scikit-learn, pandas · experiment tracking · reproducible workflows"
+
+- label: "Simulation"
+  items: "Dynamic modeling and control (MPC) · supply-chain design and scheduling · techno-economic analysis · life-cycle assessment"
+
+- label: "Tools"
+  items: "MATLAB, Aspen Plus, Git, Linux"

@@ -1,0 +1,12 @@
+# Each entry becomes one block under "Education".
+# Wrap anything unfinished in [square brackets] and it renders in ochre
+# with a dotted underline, so you can spot it on the live page.
+
+- degree: "Ph.D., Chemical Engineering"
+  where: "Texas A&M University · Texas A&M Energy Institute"
+  when: "Expected [month year] · Advisor: Efstratios N. Pistikopoulos"
+  note: "Dissertation: [one-line topic]"
+
+- degree: "[B.Tech / B.S., field]"
+  where: "[institution]"
+  when: "[year]"

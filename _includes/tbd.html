@@ -1,0 +1,5 @@
+{%- comment -%}
+Renders text, turning anything in [square brackets] into a visible
+placeholder so unfinished content is obvious on the live page.
+{%- endcomment -%}
+{{- include.text | replace: '[', '<span class="tbd">[' | replace: ']', ']</span>' -}}

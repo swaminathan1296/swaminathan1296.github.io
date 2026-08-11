@@ -1,48 +1,55 @@
-# ---------------------------------------------------------------
-# Site identity
-# Cayman renders `title` as the big <h1> in the header banner and
-# `description` as the tagline beneath it. Do NOT repeat them in index.md.
-# ---------------------------------------------------------------
-title: "Swaminathan Sundar"
-description: "Operations Research · Machine Learning · Quantitative Research"
+# =============================================================
+#  Site settings.  Edit the TODOs, then leave this file alone.
+#  Changes here need a rebuild — on GitHub that's automatic on push,
+#  but locally you must restart `jekyll serve`.
+# =============================================================
 
-# TODO: replace with your actual user-site URL
+title: "Swaminathan Sundar"
+tagline: "Operations Research · Machine Learning · Systems Engineering"
+description: "Ph.D. candidate at Texas A&M building optimization, machine learning, and systems engineering solutions for complex, real-world problems."
+
+# TODO: your user-site URL
 url: "https://swaminathansundar.github.io"
 baseurl: ""
 
 author: "Swaminathan Sundar"
-email: "swaminathan.sundar@tamu.edu"
 lang: "en_US"
 
-# ---------------------------------------------------------------
-# Theme
-# Cayman is a LIGHT theme (orange -> purple gradient header).
-# Colour overrides live in assets/css/style.scss.
-# ---------------------------------------------------------------
-remote_theme: pages-themes/cayman@v0.2.0
-show_downloads: false
+# ---- hero block ---------------------------------------------
+role: "Ph.D. Candidate, Chemical Engineering"
+affiliation: "Texas A&M University"
+location: "College Station, Texas"
+email: "swaminathan.sundar@tamu.edu"
+portrait: "/assets/images/profile.jpeg"
+cv: "/cv.pdf"
 
+# The one-line pitch. Text inside <em> is emphasised in ink.
+lede: "I turn messy, high-dimensional problems into <em>clean, actionable decisions</em> — building the models, the solvers, and the pipelines that get them used."
+
+# ---- links --------------------------------------------------
+# TODO: fill these in. Delete any line you don't want a button for.
+links:
+  - name: "GitHub"
+    url: "https://github.com/your-username"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/your-handle/"
+  - name: "Scholar"
+    url: "https://scholar.google.com/citations?user=YOUR_ID"
+
+# Name to bold in author lists on publications
+name_in_publications: "S. Sundar"
+
+# ---- build --------------------------------------------------
 plugins:
-  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# ---------------------------------------------------------------
-# Profile links — referenced from index.md so you edit them once.
-# TODO: fill these in.
-# ---------------------------------------------------------------
-github_username: "swaminathan1296"
-linkedin_url: "https://www.linkedin.com/in/swaminathan-sundar/"
-scholar_url: "https://scholar.google.com/citations?user=zWWbyAYAAAAJ&hl=en"
-orcid_url: "https://orcid.org/0000-0002-1280-0449"
-
-# Used by jekyll-seo-tag for structured data
 social:
   name: "Swaminathan Sundar"
   links:
-    - "https://www.linkedin.com/in/swaminathan-sundar/"
-    - "https://github.com/swaminathan1296"
-    - "https://scholar.google.com/citations?user=zWWbyAYAAAAJ&hl=en"
+    - "https://github.com/your-username"
+    - "https://www.linkedin.com/in/your-handle/"
+    - "https://scholar.google.com/citations?user=YOUR_ID"
 
 exclude:
   - README.md

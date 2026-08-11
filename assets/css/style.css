@@ -1,0 +1,282 @@
+/* =============================================================
+   Swaminathan Sundar — site styles
+   Palette and type are set once, here, in :root. Change a value
+   there and it propagates everywhere.
+   ============================================================= */
+
+:root{
+  --paper:#F2F4F6;
+  --paper-deep:#E7EBEF;
+  --ink:#10141A;
+  --graphite:#59626E;
+  --cobalt:#1B45C4;
+  --ochre:#B0761C;
+  --rule:#D7DDE3;
+
+  --display:"IBM Plex Sans Condensed",system-ui,sans-serif;
+  --body:"IBM Plex Serif",Georgia,serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--graphite);
+  font-family:var(--body);
+  font-size:17px;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ---------- shared ---------- */
+.wrap{max-width:1120px;margin:0 auto;padding:0 32px}
+
+.eyebrow{
+  font-family:var(--mono);
+  font-size:11px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--graphite);
+  margin:0 0 6px;
+}
+
+a{color:var(--cobalt);text-decoration:none;border-bottom:1px solid rgba(27,69,196,.28)}
+a:hover{border-bottom-color:var(--cobalt)}
+a:focus-visible{outline:2px solid var(--cobalt);outline-offset:3px;border-radius:2px}
+
+strong{color:var(--ink);font-weight:600}
+
+/* Unfinished content, flagged in [square brackets] in the YAML files.
+   Deliberately loud — you should not be able to ship these by accident. */
+.tbd{
+  color:var(--ochre);
+  font-family:var(--mono);
+  font-size:.82em;
+  border-bottom:1px dotted var(--ochre);
+}
+
+/* ---------- hero ---------- */
+.hero{position:relative;overflow:hidden;background:var(--paper)}
+.hero::after{
+  content:"";position:absolute;inset:auto 0 0;height:140px;
+  background:linear-gradient(to bottom,rgba(242,244,246,0),var(--paper));
+  pointer-events:none;
+}
+.field{
+  position:absolute;top:0;left:50%;transform:translateX(-50%);
+  width:1400px;max-width:none;height:100%;
+  opacity:.55;
+}
+.field .c{fill:none;stroke:var(--cobalt);stroke-width:.9;vector-effect:non-scaling-stroke}
+.field .c0{stroke:var(--ochre);stroke-width:1.2;opacity:.85}
+.field .c1{opacity:.42}.field .c2{opacity:.34}.field .c3{opacity:.28}
+.field .c4{opacity:.23}.field .c5{opacity:.19}.field .c6{opacity:.15}
+.field .c7{opacity:.12}.field .c8{opacity:.09}
+
+.hero-inner{
+  position:relative;z-index:1;
+  display:flex;align-items:center;gap:56px;
+  padding:104px 0 76px;
+}
+.hero-text{flex:1 1 auto;min-width:0}
+
+h1{
+  font-family:var(--display);
+  font-weight:700;
+  font-size:clamp(2.6rem,6vw,4.15rem);
+  line-height:1.02;
+  letter-spacing:-.022em;
+  color:var(--ink);
+  margin:0 0 18px;
+}
+.lede{
+  font-size:1.14rem;
+  max-width:34em;
+  margin:0 0 26px;
+  color:#3E4750;
+}
+.lede em{font-style:normal;color:var(--ink);font-weight:600}
+
+.meta{
+  font-family:var(--mono);font-size:12.5px;letter-spacing:.02em;
+  color:var(--graphite);margin:0 0 26px;line-height:1.9;
+}
+
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin:0}
+.btn{
+  font-family:var(--mono);font-size:12px;letter-spacing:.07em;text-transform:uppercase;
+  padding:11px 17px;border:1px solid var(--rule);border-radius:2px;
+  color:var(--ink);background:rgba(255,255,255,.7);
+  transition:background-color .16s ease,border-color .16s ease,color .16s ease;
+}
+.btn:hover{border-color:var(--ink);background:#fff}
+.btn-primary{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.btn-primary:hover{background:var(--cobalt);border-color:var(--cobalt);color:#fff}
+
+/* Portrait sits at the minimum of the field behind it. */
+.portrait{position:relative;flex:0 0 auto}
+.portrait img{
+  display:block;width:212px;height:212px;border-radius:50%;
+  object-fit:cover;background:var(--paper-deep);
+  border:1px solid var(--rule);
+  box-shadow:0 1px 30px rgba(16,20,26,.09);
+}
+.portrait::before,.portrait::after{
+  content:"";position:absolute;background:var(--ochre);opacity:.7;
+}
+.portrait::before{left:50%;top:-26px;width:1px;height:26px}
+.portrait::after{left:50%;bottom:-26px;width:1px;height:26px}
+.opt-label{
+  position:absolute;left:calc(50% + 10px);bottom:-40px;
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;
+  color:var(--ochre);white-space:nowrap;
+}
+
+/* ---------- body grid ---------- */
+.layout{
+  display:grid;grid-template-columns:172px minmax(0,1fr);
+  gap:64px;padding:8px 0 96px;
+}
+nav.toc{position:sticky;top:44px;align-self:start;padding-top:8px}
+nav.toc ol{list-style:none;margin:0;padding:0}
+nav.toc li{margin:0 0 11px}
+nav.toc a{
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--graphite);border:0;
+}
+nav.toc a:hover,nav.toc a.on{color:var(--ink)}
+nav.toc a.on::before{
+  content:"";display:inline-block;width:14px;height:1px;
+  background:var(--ochre);vertical-align:middle;margin-right:8px;
+}
+
+section{padding-top:56px;scroll-margin-top:32px}
+section > h2{
+  font-family:var(--display);font-weight:600;font-size:1.02rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink);
+  margin:0 0 22px;padding-bottom:10px;border-bottom:1px solid var(--rule);
+}
+section p{margin:0 0 16px}
+section p:last-child{margin-bottom:0}
+
+/* ---------- education / experience entries ---------- */
+.entry{margin:0 0 26px}
+.entry:last-child{margin-bottom:0}
+.entry h3{
+  font-family:var(--display);font-weight:600;font-size:1.16rem;letter-spacing:-.005em;
+  color:var(--ink);margin:0 0 3px;
+}
+.entry .where{font-size:.97rem;margin:0 0 4px}
+.entry .when{
+  font-family:var(--mono);font-size:11.5px;letter-spacing:.05em;
+  color:var(--graphite);margin:0 0 8px;
+}
+.entry ul{margin:8px 0 0;padding-left:1.05em}
+.entry li{margin:0 0 5px}
+
+/* ---------- skills ---------- */
+.skills{display:grid;gap:18px}
+.skill-row{display:grid;grid-template-columns:196px minmax(0,1fr);gap:20px;align-items:baseline}
+.skill-row dt{
+  font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink);
+}
+.skill-row dd{margin:0;font-size:.97rem}
+
+/* ---------- projects ---------- */
+.proj{padding:20px 0 22px;border-top:1px solid var(--rule)}
+.proj:first-of-type{border-top:0;padding-top:4px}
+.proj-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px;margin:0 0 7px}
+.proj h3{
+  font-family:var(--display);font-weight:600;font-size:1.19rem;
+  color:var(--ink);margin:0;letter-spacing:-.005em;
+}
+.result{
+  font-family:var(--mono);font-size:11px;letter-spacing:.05em;
+  color:var(--ochre);border:1px solid rgba(176,118,28,.4);
+  border-radius:2px;padding:3px 8px;white-space:nowrap;
+}
+.proj p{margin:0 0 10px;font-size:.98rem}
+.proj .links{
+  margin:0;font-family:var(--mono);font-size:11.5px;
+  letter-spacing:.06em;text-transform:uppercase;
+}
+
+/* ---------- publications ---------- */
+.pub{
+  display:grid;grid-template-columns:104px minmax(0,1fr);
+  gap:22px;padding:17px 0;border-top:1px solid var(--rule);
+}
+.pub:first-of-type{border-top:0}
+.pub .venue{
+  font-family:var(--mono);font-size:11px;letter-spacing:.05em;
+  color:var(--graphite);line-height:1.65;margin:0;
+}
+.pub .title{
+  color:var(--ink);font-weight:600;display:block;
+  margin:0 0 4px;font-size:1.01rem;line-height:1.4;
+}
+.pub .authors{font-size:.92rem;margin:0}
+.pub .authors b{color:var(--ink);font-weight:600}
+.pub .status{
+  font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ochre);
+}
+
+/* ---------- footer ---------- */
+footer{border-top:1px solid var(--rule);padding:26px 0 44px}
+footer p{
+  font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--graphite);
+  margin:0;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;
+}
+
+/* ---------- motion ---------- */
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+
+.field .c{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.5s cubic-bezier(.4,0,.2,1) forwards}
+.field .c0{animation-delay:.05s}.field .c1{animation-delay:.12s}
+.field .c2{animation-delay:.19s}.field .c3{animation-delay:.26s}
+.field .c4{animation-delay:.33s}.field .c5{animation-delay:.40s}
+.field .c6{animation-delay:.47s}.field .c7{animation-delay:.54s}
+.field .c8{animation-delay:.61s}
+
+.hero-text{animation:rise .8s .35s cubic-bezier(.2,.7,.3,1) backwards}
+.portrait{animation:rise .8s .5s cubic-bezier(.2,.7,.3,1) backwards}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .field .c{stroke-dashoffset:0;animation:none}
+  .hero-text,.portrait{animation:none}
+  *{transition:none!important}
+}
+
+/* ---------- responsive ---------- */
+@media (max-width:900px){
+  .layout{grid-template-columns:1fr;gap:0}
+  nav.toc{display:none}
+  .hero-inner{flex-direction:column-reverse;align-items:flex-start;gap:34px;padding:64px 0 56px}
+  .portrait img{width:150px;height:150px}
+  .portrait::before,.portrait::after,.opt-label{display:none}
+  .skill-row{grid-template-columns:1fr;gap:5px}
+  .pub{grid-template-columns:1fr;gap:7px}
+  .field{opacity:.4}
+}
+@media (max-width:520px){
+  .wrap{padding:0 22px}
+  body{font-size:16px}
+  footer p{flex-direction:column;gap:7px}
+}
+
+/* ---------- print: the page doubles as a one-sheet CV ---------- */
+@media print{
+  .field,.actions,nav.toc,.opt-label{display:none}
+  body{background:#fff;color:#000;font-size:11pt}
+  .hero-inner{padding:0 0 18px}
+  .layout{display:block;padding:0}
+  a{color:#000;border:0}
+  section{padding-top:22px;break-inside:avoid}
+  .proj,.pub,.entry{break-inside:avoid}
+}

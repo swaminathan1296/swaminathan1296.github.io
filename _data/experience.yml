@@ -1,0 +1,10 @@
+# Internships, RA/TA appointments, consulting.
+# Delete every entry here and the whole section disappears from the page
+# and from the sidebar nav — no empty heading left behind.
+
+- role: "Graduate Research Assistant"
+  where: "Texas A&M Energy Institute"
+  when: "[dates]"
+  bullets:
+    - "[bullet with a number in it]"
+    - "[bullet with a number in it]"

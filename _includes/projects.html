@@ -1,0 +1,19 @@
+{%- if site.data.projects and site.data.projects.size > 0 -%}
+<section id="projects">
+  <h2>Projects</h2>
+  {%- for p in site.data.projects %}
+  <div class="proj">
+    <div class="proj-head">
+      <h3>{% include tbd.html text=p.name %}</h3>
+      {%- if p.tag %}<span class="result">{% include tbd.html text=p.tag %}</span>{% endif %}
+    </div>
+    <p>{% include tbd.html text=p.description %}</p>
+    {%- if p.url and p.url != '' %}
+    <p class="links"><a href="{{ p.url }}">Code &rarr;</a></p>
+    {%- else %}
+    <p class="links"><span class="tbd">[add repo link]</span></p>
+    {%- endif %}
+  </div>
+  {%- endfor %}
+</section>
+{%- endif -%}

@@ -1,0 +1,28 @@
+{%- if site.data.publications and site.data.publications.size > 0 -%}
+<section id="publications">
+  <h2>Publications</h2>
+  {%- for pub in site.data.publications %}
+  {%- assign bold = site.name_in_publications | default: site.author -%}
+  {%- capture wrapped %}<b>{{ bold }}</b>{% endcapture -%}
+  {%- assign authors = pub.authors | replace: bold, wrapped -%}
+  <div class="pub">
+    <p class="venue">
+      {%- if pub.status -%}
+        <span class="status">{{ pub.status }}</span>
+      {%- else -%}
+        {{ pub.venue }}<br>{{ pub.year }}
+      {%- endif -%}
+    </p>
+    <div>
+      <span class="title">{{ pub.title }}</span>
+      <p class="authors">
+        {{ authors }}
+        {%- if pub.detail and pub.detail != '' %} · <i>{{ pub.detail }}</i>{% endif -%}
+        {%- if pub.doi and pub.doi != '' %} · <a href="{{ pub.doi }}">DOI</a>
+        {%- elsif pub.venue %} · <span class="tbd">[DOI]</span>{% endif -%}
+      </p>
+    </div>
+  </div>
+  {%- endfor %}
+</section>
+{%- endif -%}

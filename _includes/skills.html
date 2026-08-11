@@ -1,0 +1,13 @@
+{%- if site.data.skills and site.data.skills.size > 0 -%}
+<section id="skills">
+  <h2>Skills</h2>
+  <dl class="skills">
+    {%- for s in site.data.skills %}
+    <div class="skill-row">
+      <dt>{{ s.label }}</dt>
+      <dd>{% include tbd.html text=s.items %}</dd>
+    </div>
+    {%- endfor %}
+  </dl>
+</section>
+{%- endif -%}

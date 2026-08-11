@@ -1,0 +1,19 @@
+{%- if site.data.experience and site.data.experience.size > 0 -%}
+<section id="experience">
+  <h2>Experience</h2>
+  {%- for x in site.data.experience %}
+  <div class="entry">
+    <h3>{% include tbd.html text=x.role %}</h3>
+    {%- if x.where %}<p class="where">{% include tbd.html text=x.where %}</p>{% endif %}
+    {%- if x.when %}<p class="when">{% include tbd.html text=x.when %}</p>{% endif %}
+    {%- if x.bullets %}
+    <ul>
+      {%- for b in x.bullets %}
+      <li>{% include tbd.html text=b %}</li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+  </div>
+  {%- endfor %}
+</section>
+{%- endif -%}

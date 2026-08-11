@@ -1,0 +1,29 @@
+# `tag` is the small chip on the right of the title. Put a NUMBER there
+# whenever you have one — "94.2% test acc" reads far stronger than "PyTorch".
+# `url` is the repo. An entry with no url renders without a link, which is
+# exactly the thing you want to notice and fix.
+
+- name: "Large-Scale Optimization Framework"
+  tag: "Pyomo · NLP"
+  url: ""
+  description: "Nonlinear programs for dynamic systems under uncertainty, supporting design trade-off studies, sensitivity analysis, and controllability checks in one formulation."
+
+- name: "Vision Transformer on CIFAR-10"
+  tag: "[XX.X% test acc]"
+  url: ""
+  description: "Compact ViT written from scratch in PyTorch, with augmentation and a tuned hyperparameter sweep. A study of where attention earns its keep on small image data."
+
+- name: "Transformer Review Classification"
+  tag: "100k+ reviews"
+  url: ""
+  description: "End-to-end NLP pipeline — preprocessing, tokenization, positional encoding, training — over the Yelp review corpus."
+
+- name: "Vehicle Routing Metaheuristics"
+  tag: "CVRP"
+  url: ""
+  description: "2-opt, λ-interchange, and Iterated Local Search, benchmarked on how reliably each escapes local minima across small and medium instances."
+
+- name: "Particle Track Reconstruction as a QUBO"
+  tag: "Quantum annealing"
+  url: ""
+  description: "Recast multi-track reconstruction as a quadratic unconstrained binary problem, then compared simulated against quantum annealing on solution quality versus runtime."
