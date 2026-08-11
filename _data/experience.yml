@@ -1,10 +1,16 @@
-# Internships, RA/TA appointments, consulting.
-# Delete every entry here and the whole section disappears from the page
-# and from the sidebar nav — no empty heading left behind.
+- role: "Graduate Research Assistant"
+  where: "Texas A&M Energy Institute · College Station, TX"
+  when: "Aug 2021 – Present"
+  bullets:
+    - "Designed a generalized multiscale digital-twin framework linking unit operations, plant-level operations, and supply-chain decisions — demonstrated on algae-based CO<sub>2</sub> utilization and built to transfer to energy, chemical, and manufacturing networks."
+    - "Built high-fidelity photobioreactor digital twins in Python/Pyomo covering transport, reaction, and biological kinetics, with global parameter estimation, Sobol sensitivity analysis, and model-based design of experiments to obtain well-identified models."
+    - "Developed forecast-aware nonlinear MPC formulations that embed exogenous forecasts, such as solar irradiance, directly into closed-loop optimization for real-time operational decisions."
+    - "Created a state–task-network TEA/LCA framework that automatically generates mixed-integer models with cost and emissions KPIs for technology selection, capacity expansion, and logistics planning — then extended it to two-stage stochastic optimization separating investment from scenario-dependent operations."
+    - "Led modeling for the DOE-funded Continuous Algae-based Carbon Capture and Utilization (CACCU) project."
 
 - role: "Graduate Research Assistant"
-  where: "Texas A&M Energy Institute"
-  when: "[dates]"
+  where: "Carnegie Mellon University · Pittsburgh, PA"
+  when: "Aug 2019 – Dec 2020"
   bullets:
-    - "[bullet with a number in it]"
-    - "[bullet with a number in it]"
+    - "Modeled and optimized a photocatalytic CO<sub>2</sub> utilization process in Pyomo, integrating Langmuir–Hinshelwood kinetics, annular fluid dynamics, and radiation models."
+    - "Achieved 25× higher CO<sub>2</sub> conversion by optimizing reactor length and recycle configuration, with sensitivity analysis to identify the key design and operating levers."

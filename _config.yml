@@ -5,11 +5,10 @@
 # =============================================================
 
 title: "Swaminathan Sundar"
-tagline: "Operations Research · Machine Learning · Systems Engineering"
-description: "Ph.D. candidate at Texas A&M building optimization, machine learning, and systems engineering solutions for complex, real-world problems."
+tagline: "Optimization · Multiscale Modeling · Decision-Making Under Uncertainty"
+description: "Ph.D. candidate at Texas A&M building multiscale models, digital twins, and optimization frameworks for energy and manufacturing systems."
 
-# TODO: your user-site URL
-url: "https://swaminathansundar.github.io"
+url: "https://swaminathan1296.github.io"
 baseurl: ""
 
 author: "Swaminathan Sundar"
@@ -24,17 +23,19 @@ portrait: "/assets/images/profile.jpeg"
 cv: "/cv.pdf"
 
 # The one-line pitch. Text inside <em> is emphasised in ink.
-lede: "I turn messy, high-dimensional problems into <em>clean, actionable decisions</em> — building the models, the solvers, and the pipelines that get them used."
+lede: "I build the models, solvers, and digital twins that turn <em>messy physical systems into decisions you can defend</em> — from reactor kinetics up to supply-chain investment under uncertainty."
 
 # ---- links --------------------------------------------------
-# TODO: fill these in. Delete any line you don't want a button for.
+# Delete any line you don't want a button for.
 links:
   - name: "GitHub"
-    url: "https://github.com/your-username"
+    url: "https://github.com/swaminathan1296"
   - name: "LinkedIn"
-    url: "https://www.linkedin.com/in/your-handle/"
-  - name: "Scholar"
-    url: "https://scholar.google.com/citations?user=YOUR_ID"
+    url: "https://www.linkedin.com/in/swaminathan-sundar"
+  # TODO: add a Google Scholar profile — you have a published paper and two in prep,
+  # and it is the first place an academic reviewer looks. Takes ten minutes to set up.
+  # - name: "Scholar"
+  #   url: "https://scholar.google.com/citations?user=YOUR_ID"
 
 # Name to bold in author lists on publications
 name_in_publications: "S. Sundar"
@@ -47,9 +48,8 @@ plugins:
 social:
   name: "Swaminathan Sundar"
   links:
-    - "https://github.com/your-username"
-    - "https://www.linkedin.com/in/your-handle/"
-    - "https://scholar.google.com/citations?user=YOUR_ID"
+    - "https://github.com/swaminathan1296"
+    - "https://www.linkedin.com/in/swaminathan-sundar"
 
 exclude:
   - README.md

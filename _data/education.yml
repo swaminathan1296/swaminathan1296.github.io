@@ -1,12 +1,12 @@
-# Each entry becomes one block under "Education".
-# Wrap anything unfinished in [square brackets] and it renders in ochre
-# with a dotted underline, so you can spot it on the live page.
-
 - degree: "Ph.D., Chemical Engineering"
   where: "Texas A&M University · Texas A&M Energy Institute"
-  when: "Expected [month year] · Advisor: Efstratios N. Pistikopoulos"
-  note: "Dissertation: [one-line topic]"
+  when: "Aug 2021 – Aug 2026 (expected) · Advisor: Efstratios N. Pistikopoulos"
+  note: "Dissertation: <i>Multiscale Modeling and Optimization Framework for Digital Twin Development Applications</i>"
 
-- degree: "[B.Tech / B.S., field]"
+- degree: "M.S., Chemical Engineering"
+  where: "Carnegie Mellon University"
+  when: "Aug 2019 – Dec 2020 · Advisors: Debangsu Bhattacharyya, Chrysanthos Gounaris"
+
+- degree: "[B.Tech / B.S. — not on your CV, see note]"
   where: "[institution]"
   when: "[year]"

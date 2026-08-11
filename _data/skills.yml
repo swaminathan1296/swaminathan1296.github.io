@@ -1,11 +1,14 @@
 - label: "Optimization"
-  items: "Pyomo, Gurobi, GAMS · nonlinear and mixed-integer programming · multi-objective optimization · metaheuristics"
+  items: "Nonlinear and mixed-integer programming (NLP/MILP) · two-stage stochastic and robust optimization · multi-parametric programming · decision-making under uncertainty · heuristic optimization · graph theory"
+
+- label: "Modeling & Control"
+  items: "Dynamic and multiscale high-fidelity modeling · model predictive control (MPC/NMPC) · surrogate modeling · global sensitivity analysis (Sobol) · model-based design of experiments (MBDoE) · parameter estimation"
 
 - label: "ML & Data"
-  items: "Python, PyTorch, TensorFlow, scikit-learn, pandas · experiment tracking · reproducible workflows"
+  items: "Python (PyTorch, TensorFlow, Keras, scikit-learn, pandas, NumPy) · neural forecasting with uncertainty quantification · time-series clustering · MATLAB · C++"
 
-- label: "Simulation"
-  items: "Dynamic modeling and control (MPC) · supply-chain design and scheduling · techno-economic analysis · life-cycle assessment"
+- label: "Solvers & Tools"
+  items: "Pyomo, Pyomo.DAE, Gurobi, GAMS, AMPL, LINGO · IPOPT, CPLEX, BARON, ANTIGONE, PPOPT, GLPK · gPROMS, Aspen Plus, COMSOL"
 
-- label: "Tools"
-  items: "MATLAB, Aspen Plus, Git, Linux"
+- label: "Sustainability"
+  items: "Techno-economic analysis · static and dynamic life-cycle assessment · supply-chain modeling · scenario and risk analysis"

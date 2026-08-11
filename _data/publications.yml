@@ -1,13 +1,17 @@
-# Published work: give `venue` and `year`.
-# Unpublished work: give `status` instead (e.g. "In prep", "Under review").
-# Your own name is bolded automatically — see `name_in_publications` in _config.yml.
-
 - title: "Techno-economic analysis and life-cycle assessment of a novel algae-based CCUS technology"
   authors: "S. Sundar, R. Kakodkar, E. N. Pistikopoulos"
   venue: "Comput. Chem. Eng."
   year: 2025
-  detail: ""
+  detail: "p. 109409"
   doi: ""
+
+- title: "From dynamic modeling to optimal experiments: an MBDoE framework for scale-up of algae-based CCUS processes"
+  authors: "S. Sundar, V. Xu, B. Long, S. Dai, J. Yuan, Y. J. Tang, E. N. Pistikopoulos"
+  status: "In prep"
+
+- title: "Forecast-aware nonlinear model predictive control of photobioreactors under solar irradiance uncertainty"
+  authors: "S. Sundar, V. Xu, D. Kenefake, Y. J. Tang, E. N. Pistikopoulos"
+  status: "In prep"
 
 - title: "Hydrogen-based dense energy carriers in energy transition solutions"
   authors: "R. Kakodkar, S. Sundar, E. N. Pistikopoulos"
@@ -15,11 +19,3 @@
   year: 2022
   detail: "Handbook of Smart Energy Systems"
   doi: ""
-
-- title: "Model-based experimental design and parameter estimation in algae-based CCUS scale-up"
-  authors: "S. Sundar, V. Xu, D. Kenefake, Y. Tang, E. N. Pistikopoulos"
-  status: "In prep"
-
-- title: "Dynamic modeling and control of a photobioreactor for the cultivation of algae"
-  authors: "S. Sundar, V. Xu, D. Kenefake, Y. Tang, E. N. Pistikopoulos"
-  status: "In prep"
