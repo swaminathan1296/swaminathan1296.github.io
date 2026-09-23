@@ -2,21 +2,25 @@
 layout: default
 ---
 
-Howdy. I work where optimization, multiscale modeling, and process systems engineering
-meet — formulating problems that are genuinely hard to state, then solving them at a
-scale where the answer changes what someone builds.
+Howdy! I work at the intersection of optimization, multiscale modeling, and process systems
+engineering. Most of what I do comes down to taking a messy engineering decision and
+turning it into a model that actually helps someone design, operate, or invest better.
 
-My dissertation develops a generalized digital-twin framework that links three levels
-usually modeled in isolation: unit operations, plant-level control, and supply-chain
-investment. The case study is algae-based carbon capture — high-fidelity photobioreactor
-models with parameter estimation and model-based design of experiments, forecast-aware
-nonlinear MPC that folds solar irradiance uncertainty into closed-loop control, and a
-state–task-network TEA/LCA layer that generates mixed-integer planning models
-automatically. The framework is built to transfer to other energy, chemical, and
-manufacturing networks.
+My dissertation builds a digital-twin framework that connects three things usually
+modeled on their own: individual unit operations, plant-level control, and
+supply-chain planning. I use algae-based carbon capture as the case study. That means
+high-fidelity photobioreactor models, parameter estimation, global sensitivity
+analysis, and model-based design of experiments, plus forecast-aware nonlinear MPC
+that accounts for solar-irradiance uncertainty in closed-loop control.
 
-Alongside it I work on transformers, metaheuristics, and quantum-annealing formulations,
-because the interesting methods rarely stay in their own field.
+On the planning side, I built a state-task-network framework that automatically
+generates mixed-integer optimization models for techno-economic analysis and
+life-cycle assessment. These weigh technology choice, capacity expansion, inventory,
+logistics, cost, and emissions against each other. The framework is meant to transfer
+to other energy, chemical, and manufacturing systems, not just this one.
 
-**Graduating August 2026** and seeking quantitative research, optimization, and applied
-ML roles.
+Outside the dissertation I work on transformers, metaheuristics, and quantum-annealing
+formulations. The good ideas rarely stay in one field.
+
+**Graduating December 2026**, looking for roles in first-principles modeling,
+quantitative research, optimization, digital twins, and applied ML.
