@@ -14,7 +14,13 @@
       {%- endif -%}
     </p>
     <div>
-      <span class="title">{{ pub.title }}</span>
+      <span class="title">
+        {%- if pub.url and pub.url != '' -%}
+          <a href="{{ pub.url }}">{{ pub.title }}</a>
+        {%- else -%}
+          {{ pub.title }}
+        {%- endif -%}
+      </span>
       <p class="authors">
         {{ authors }}
         {%- if pub.detail and pub.detail != '' %} · <i>{{ pub.detail }}</i>{% endif -%}
