@@ -1,19 +1,19 @@
 - name: "Transformer Review Classification"
   tag: "82.9% test acc"
-  url: ""
+  # url: ""
   description: "NLP pipeline over 174,000 Yelp reviews in PyTorch and NLTK, with custom positional encoding and a transformer classifier. Hyperparameter tuning reached 83% validation and 82.9% test accuracy."
 
 - name: "Particle Track Reconstruction as a QUBO"
   tag: "MILP + QUBO"
-  url: ""
+  # url: ""
   description: "Formulated track reconstruction from LHC data as both a mixed-integer program in Pyomo and a QUBO model, then compared simulated against quantum annealing on solution quality and scaling with particle count."
 
 - name: "Metaheuristics for Capacitated Vehicle Routing"
   tag: "CVRP"
-  url: ""
+  # url: ""
   description: "2-opt and λ-interchange under Iterated Local Search, benchmarked across problem sizes to characterize scalability and runtime behaviour."
 
 - name: "Vision Transformer on CIFAR-10"
   tag: "[56.65% test acc]"
-  url: ""
+  # url: ""
   description: "Compact ViT written from scratch in PyTorch, with augmentation and a tuned hyperparameter sweep. A study of where attention earns its keep on small image data."
