@@ -10,8 +10,6 @@
     <p>{% include tbd.html text=p.description %}</p>
     {%- if p.url and p.url != '' %}
     <p class="links"><a href="{{ p.url }}">Code &rarr;</a></p>
-    <!-- {%- else %}
-    <p class="links"><span class="tbd">[add repo link]</span></p> -->
     {%- endif %}
   </div>
   {%- endfor %}
