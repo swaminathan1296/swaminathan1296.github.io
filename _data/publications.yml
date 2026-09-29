@@ -3,7 +3,7 @@
   venue: "Comput. Chem. Eng."
   year: 2025
   detail: "p. 109409"
-  doi: ""
+  doi: "https://doi.org/10.1016/j.compchemeng.2025.109409"
   url: "https://www.sciencedirect.com/science/article/pii/S0098135425004120"
 
 - title: "From dynamic modeling to optimal experiments: an MBDoE framework for scale-up of algae-based CCUS processes"
