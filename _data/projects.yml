@@ -17,3 +17,8 @@
   tag: "[56.65% test acc]"
   # url: ""
   description: "Compact ViT written from scratch in PyTorch, with augmentation and a tuned hyperparameter sweep. A study of where attention earns its keep on small image data."
+
+- name: "Fleet Decarbonization Planning (Shell.ai Hackathon)"
+  tag: "Top 20 globally"
+  # url: ""
+  description: "Team of four. MILP in Pyomo/Gurobi for a 16-year transition from diesel to LNG and battery-electric trucks, minimizing total cost under yearly carbon caps, demand by size and distance class, vehicle lifetimes, and a 20% annual sales limit. I built the Streamlit dashboard for comparing three fuel-price scenarios."

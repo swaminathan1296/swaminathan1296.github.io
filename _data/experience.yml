@@ -3,7 +3,7 @@
   when: "Aug 2021 – Present"
   bullets:
     - "Designed a generalized multiscale digital-twin framework linking unit operations, plant-level operations, and supply-chain decisions — demonstrated on algae-based CO<sub>2</sub> utilization and built to transfer to energy, chemical, and manufacturing networks."
-    - "Built high-fidelity photobioreactor digital twins in Python/Pyomo covering transport, reaction, and biological kinetics, with global parameter estimation, Sobol sensitivity analysis, and model-based design of experiments to obtain well-identified models."
+    -     - "Built high-fidelity photobioreactor digital twins in Python/Pyomo covering transport, reaction, and biological kinetics, with global parameter estimation, Sobol sensitivity analysis, and structural identifiability analysis; developed an MBDoE framework using D<sub>s</sub>-optimal designs on non-identifiable parameter subsets that reduces the parameter confidence region ~24× versus a full factorial design at half the experimental evaluations."
     - "Developed forecast-aware nonlinear MPC formulations that embed exogenous forecasts, such as solar irradiance, directly into closed-loop optimization for real-time operational decisions."
     - "Created a state–task-network TEA/LCA framework that automatically generates mixed-integer models with cost and emissions KPIs for technology selection, capacity expansion, and logistics planning — then extended it to two-stage stochastic optimization separating investment from scenario-dependent operations."
     - "Led modeling for the DOE-funded Continuous Algae-based Carbon Capture and Utilization (CACCU) project."
@@ -14,3 +14,10 @@
   bullets:
     - "Modeled and optimized a photocatalytic CO<sub>2</sub> utilization process in Pyomo, integrating Langmuir–Hinshelwood kinetics, annular fluid dynamics, and radiation models."
     - "Achieved 25× higher CO<sub>2</sub> conversion by optimizing reactor length and recycle configuration, with sensitivity analysis to identify the key design and operating levers."
+
+- role: "Intern, Process Engineering"
+  where: "Reliance Industries Limited · Navi Mumbai, India"
+  when: "Jan 2018 – Apr 2018"
+  bullets:
+    - "Built Aspen Plus (Peng–Robinson) models of an industrial naphtha splitter (340 t/h feed, ~55 components) as the baseline for evaluating a dividing wall column; used shortcut analysis to select the reflux ratio and set the condenser pressure so the overhead could be condensed with cooling water at 45 °C."
+    - "Validated a rigorous RadFrac model (40 stages) against plant datasheet data, matching product compositions to within about 4 percentage points and CS<sub>2</sub> in the bottoms (~2 ppm)."
