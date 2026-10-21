@@ -32,6 +32,8 @@ links:
     url: "https://github.com/swaminathan1296"
   - name: "LinkedIn"
     url: "https://www.linkedin.com/in/swaminathan-sundar"
+  - name: "Scholar"
+    url: "https://scholar.google.com/citations?user=zWWbyAYAAAAJ"
   # TODO: add a Google Scholar profile — you have a published paper and two in prep,
   # and it is the first place an academic reviewer looks. Takes ten minutes to set up.
   # - name: "Scholar"
@@ -50,6 +52,7 @@ social:
   links:
     - "https://github.com/swaminathan1296"
     - "https://www.linkedin.com/in/swaminathan-sundar"
+    - "https://scholar.google.com/citations?user=zWWbyAYAAAAJ"
 
 exclude:
   - README.md

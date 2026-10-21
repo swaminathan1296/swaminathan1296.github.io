@@ -22,5 +22,5 @@ to other energy, chemical, and manufacturing systems, not just this one.
 Outside the dissertation I work on transformers, metaheuristics, and quantum-annealing
 formulations. The good ideas rarely stay in one field.
 
-**Graduating December 2026**, looking for roles in first-principles modeling,
-quantitative research, optimization, digital twins, and applied ML.
+**Graduating December 2026**, looking for roles in process modeling and control,
+optimization, supply chain modeling, digital twins, and applied ML.
