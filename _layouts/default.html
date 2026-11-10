@@ -26,10 +26,10 @@
       </p>
       <p class="actions">
         {%- if site.cv %}
-        <a class="btn btn-primary" href="{{ site.cv | relative_url }}">Download CV</a>
+        <a class="btn btn-primary" href="{{ site.cv | relative_url }}" data-goatcounter-click="cv-download" data-goatcounter-title="Download CV">Download CV</a>
         {%- endif %}
         {%- for l in site.links %}
-        <a class="btn" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.name }}</a>
+        <a class="btn" href="{{ l.url }}" target="_blank" rel="noopener" data-goatcounter-click="link-{{ l.name | downcase }}" data-goatcounter-title="{{ l.name }}">{{ l.name }}</a>
         {%- endfor %}
       </p>
     </div>
@@ -80,5 +80,9 @@
 </footer>
 
 <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+{%- if jekyll.environment == 'production' and site.goatcounter != '' and site.goatcounter %}
+<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+{%- endif %}
 </body>
 </html>

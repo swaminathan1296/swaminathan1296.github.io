@@ -42,6 +42,14 @@ links:
 # Name to bold in author lists on publications
 name_in_publications: "S. Sundar"
 
+# ---- analytics ----------------------------------------------
+# Privacy-friendly visit counting (no cookies, no consent banner).
+# 1. Sign up free at https://www.goatcounter.com and choose a site code.
+# 2. Put just the code here (for YOURCODE.goatcounter.com, write "YOURCODE").
+# Leave it empty and no analytics script is loaded. The script also only
+# loads on the live GitHub Pages build, so local previews are not counted.
+goatcounter: ""
+
 # ---- build --------------------------------------------------
 plugins:
   - jekyll-seo-tag
