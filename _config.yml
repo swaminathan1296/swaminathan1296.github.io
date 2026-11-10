@@ -48,7 +48,7 @@ name_in_publications: "S. Sundar"
 # 2. Put just the code here (for YOURCODE.goatcounter.com, write "YOURCODE").
 # Leave it empty and no analytics script is loaded. The script also only
 # loads on the live GitHub Pages build, so local previews are not counted.
-goatcounter: ""
+goatcounter: "swami1296"
 
 # ---- build --------------------------------------------------
 plugins:
